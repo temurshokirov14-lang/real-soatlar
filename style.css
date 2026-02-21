@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFCD38;
+}
+
+
+
+.clock-container {
+    width: 850px;
+    height: 300px;
+    background-color: #9d7e22;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    
+}
+
+.time-box {
+    width: 200px;
+    height: 200px;
+    background: #2c1a0a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.time-box h1 {
+    font-size: 60px;
+}
+
+.time-box p {
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
